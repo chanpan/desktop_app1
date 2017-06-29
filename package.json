@@ -1,0 +1,22 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "linux": "electron-packager . --asar --platform=linux --arch=x64",
+    "windows": "electron-packager . app1 --asar --platform=win32 --arch=ia32",
+    "mac": "electron-packager . --asar --platform=darwin --arch=x64",
+    "build-all":"electron-packager . app1 --platform=all --arch=x64 --version=0.36.7 --out=build --ignore='(build|node_modules)' --overwrite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2",
+    "jquery": "^3.2.1"
+  }
+}
