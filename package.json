@@ -8,7 +8,7 @@
     "linux": "electron-packager . --asar --platform=linux --arch=x64",
     "windows": "electron-packager . app1 --asar --platform=win32 --arch=ia32",
     "mac": "electron-packager . --asar --platform=darwin --arch=x64",
-    "build-all":"electron-packager . app1 --platform=all --arch=x64 --version=0.36.7 --out=build --ignore='(build|node_modules)' --overwrite"
+    "build-all": "electron-packager . app1 --platform=all --arch=x64 --version=0.36.7 --out=build --ignore='(build|node_modules)' --overwrite"
   },
   "author": "",
   "license": "ISC",
